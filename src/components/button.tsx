@@ -16,5 +16,5 @@ export const Button: React.FC<IButtonProps> = ({
       ${canClick ? "bg-gray-800 hover:opacity-90" : "bg-gray-300 pointer-events-none"}`}
   >
     {loading ? "Loading..." : actionText}
-  </button>
+  </button> 
 );
